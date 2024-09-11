@@ -6,7 +6,7 @@ import pandas as pd
 import dash_leaflet as dl
 app = Dash()
 def load_dataframe():
-    df= pd.read_excel('./data/data.xlsx')
+    df= pd.read_excel('https://github.com/Westly93/data/blob/main/data.xlsx')
     columns= {
         "DISTRICT": 'district',
         'WARD': 'ward',
